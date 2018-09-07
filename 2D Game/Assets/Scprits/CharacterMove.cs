@@ -4,7 +4,15 @@ using UnityEngine;
 
 public class CharacterMove : MonoBehaviour {
 
-	public int moveSpeed = 10;
+	// Player movement varlables
+	public int moveSpeed;
+	public float JumpHeight;
+	
+	// Player grounded varlables
+	public Transform groundCheck;
+	public float groundCheckRadius;
+	public LayerMask whatIsGround;
+	public bool grounded;
 
 
 	// Use this for initialization
@@ -13,7 +21,23 @@ public class CharacterMove : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void FixedUpdate () {
+		grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
 	}
+
+	//Update is called once per fame
+	void Update () {
+
+		// This code makes the character jump
+		if(Input.GetKeyDown (KeyCode.Space)&& grounded){
+			Jump();
+		}
+
+	}
+
+	public void Jump(){
+		GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, JumpHeight);
+	}
+
+
 }
