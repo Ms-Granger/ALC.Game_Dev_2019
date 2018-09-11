@@ -20,12 +20,12 @@ public class CharacterMove : MonoBehaviour {
 		
 	}
 	
-	// Update is called once per frame
+	
 	void FixedUpdate () {
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
 	}
 
-	//Update is called once per fame
+	// Update is called once per fame
 	void Update () {
 
 		// This code makes the character jump
@@ -33,6 +33,13 @@ public class CharacterMove : MonoBehaviour {
 			Jump();
 		}
 
+		// This code makes the character move from side to side using the A&D keys
+		if(Input.GetKey (KeyCode.D)){
+			GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+
+		}		
+		if(Input.GetKey (KeyCode.A)){
+			GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 	}
 
 	public void Jump(){
