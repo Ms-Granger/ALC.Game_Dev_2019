@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour {
 
+	public static int Score;
+
+	Text ScoreText;
+
 	// Use this for initialization
 	void Start () {
 		ScoreText = GetComponent<Text>();
@@ -19,4 +23,13 @@ public class ScoreManager : MonoBehaviour {
 
 		ScoreText.text = " " + Score;
 	}
+
+	public static void AddPoints (int PointsToAdd) {
+		Score += PointsToAdd;
+}
+
+	// public static void Reset () {
+	// Score=0;
+	// }
+
 }
