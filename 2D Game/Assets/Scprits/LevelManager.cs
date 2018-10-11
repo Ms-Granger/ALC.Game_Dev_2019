@@ -27,6 +27,9 @@ public class LevelManager : MonoBehaviour {
 	void Start () {
 			// PC = FindObjectOfType<Rigidbody2D> ();
 	}
+	public void RespawnPlayer(){
+			StartCoroutine ("RespawnPlayerCo");
+	}
 	
 	public IEnumerator RespawnPlayerCo(){
 		//Generate Death Particle
