@@ -5,9 +5,13 @@ using UnityEngine;
 public class Projectile : MonoBehaviour {
 
 	public float Speed;
+
 	public Rigidbody2D HeroPC;
+
 	public GameObject EnemyDeath;
+
 	public GameObject ProjectileParticle;
+	
 	public int PointsForKill;
 
 	// Use this for initialization
