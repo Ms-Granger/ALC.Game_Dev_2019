@@ -20,6 +20,9 @@ public class Projectile : MonoBehaviour {
 		if(HeroPC.transform.localScale.x < 0)
 			Speed = -Speed;
 
+			// Speed = Speed * Mathf.Sign(PC.transform.localScale.x);
+
+			// GetComponent<Rigidbody2D>().velocity = new Vector2(Speed + (PC.GetComponent<Rigidbody2D>().velocity.x/3),GetComponent<Rigidbody2D>().velocity.y + (PC.GetComponent<Rigidbody2D>().velocity.y/3));
 		
 	}
 	

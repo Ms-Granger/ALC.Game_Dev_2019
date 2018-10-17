@@ -12,8 +12,8 @@ public class KillPlayer : MonoBehaviour {
 		LevelManager = FindObjectOfType <LevelManager>();
 	}
 	
-	void OnTriggerEnter2D(Rigidbody2D other){
-		if(other.name == "HeroPC"){
+	void OnTriggerEnter2D(Collider2D other){
+		if(other.name == "Hero PC"){
 			LevelManager.RespawnPlayer();
 		}	
 	}
