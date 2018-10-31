@@ -8,7 +8,7 @@ public class KillBox : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D other){
 
-		if(other.name == "Hero PC")
+		if(other.name == "HeroPC")
 		{
 			Debug.Log("Player Enters Kill Zone");
 			Destroy(other);
