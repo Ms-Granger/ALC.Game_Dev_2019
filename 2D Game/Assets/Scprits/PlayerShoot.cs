@@ -11,7 +11,9 @@ public class PlayerShoot : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Projectile = GameObject.Find("Projectile");
+			// Load Projectile from Resources/Prefabs Folder
+			Projectile = Resources.Load("Prefabs/Projectile") as GameObject;
+		
 	}
 	
 	// Update is called once per frame
