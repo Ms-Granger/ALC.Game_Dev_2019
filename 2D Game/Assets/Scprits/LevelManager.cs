@@ -6,7 +6,7 @@ public class LevelManager : MonoBehaviour {
 
 	public GameObject CurrentCheckPoint;
 	public Rigidbody2D PC;
-
+	public GameObject PC2;
 	// Particles
 	public GameObject DeathParticle;
 	public GameObject RespawnParticle;

@@ -8,7 +8,7 @@ public class Projectile : MonoBehaviour {
 
 	public float TimeOut;
 
-	public Rigidbody2D PC;
+	public GameObject PC;
 
 	public GameObject EnemyDeath;
 
