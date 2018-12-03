@@ -25,7 +25,8 @@ public class LevelManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-			// PC = FindObjectOfType<Rigidbody2D> ();
+			PC = GameObject.Find("HeroPC").GetComponent<Rigidbody2D>();
+			PC2 = GameObject.Find("HeroPC");
 	}
 	public void RespawnPlayer(){
 			StartCoroutine ("RespawnPlayerCo");
@@ -36,6 +37,7 @@ public class LevelManager : MonoBehaviour {
 		Instantiate (DeathParticle, PC.transform.position, PC.transform.rotation);
 		//Hide PC
 		// PC.enabled = false;
+				PC2.SetActive(false);
 		PC.GetComponent<Renderer> ().enabled = false;
 		// Gravity Reset
 		GravityStore = PC.GetComponent<Rigidbody2D>().gravityScale;
@@ -44,7 +46,7 @@ public class LevelManager : MonoBehaviour {
 		// Point Penalty
 		ScoreManager.AddPoints(-PointPenaltyOnDeath);
 		//Debug Message
-		Debug.Log ("HeroPC Respawn");
+		Debug.Log ("PC Respawn");
 		//Respawn Delay
 		yield return new WaitForSeconds (RespawnDelay);
 		//Gravity Restore
@@ -53,9 +55,10 @@ public class LevelManager : MonoBehaviour {
 		PC.transform.position = CurrentCheckPoint.transform.position;
 		//Show PC
 		// PC.enabled = true;
+		PC2.SetActive(true);
 		PC.GetComponent<Renderer> ().enabled = true;
 		//Spawn PC
-Instantiate (RespawnParticle, CurrentCheckPoint.transform.position, CurrentCheckPoint.transform.rotation);
+		Instantiate (RespawnParticle, CurrentCheckPoint.transform.position, CurrentCheckPoint.transform.rotation);
 		
 	}
 }

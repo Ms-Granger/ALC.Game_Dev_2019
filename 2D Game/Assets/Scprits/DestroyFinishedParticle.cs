@@ -15,7 +15,7 @@ public class DestroyFinishedParticle : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 			if(thisParticleSystem.isPlaying)
-			return;
+					return;
 
 			Destroy (gameObject); 
 	}

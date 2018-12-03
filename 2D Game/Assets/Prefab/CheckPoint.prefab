@@ -9,55 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1113236561003856}
+  m_RootGameObject: {fileID: 1506593331553958}
   m_IsPrefabParent: 1
---- !u!1 &1113236561003856
+--- !u!1 &1506593331553958
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4615143233069276}
-  - component: {fileID: 114018029307615588}
+  - component: {fileID: 4585371615907716}
+  - component: {fileID: 114231547745963634}
   m_Layer: 0
-  m_Name: LevelManager
+  m_Name: CheckPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4615143233069276
+--- !u!4 &4585371615907716
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1113236561003856}
+  m_GameObject: {fileID: 1506593331553958}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.136059, y: 6.418847, z: 1.2150912}
+  m_LocalPosition: {x: -0.04, y: -0.59, z: 1.2124503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114018029307615588
+--- !u!114 &114231547745963634
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1113236561003856}
+  m_GameObject: {fileID: 1506593331553958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cb157e8c291e40bf92d154bac8156c4, type: 3}
+  m_Script: {fileID: 11500000, guid: ceafa2305740e43ac969b90d2a0485b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentCheckPoint: {fileID: 1158134046170186, guid: 3d63aebd3942d48c5bc5a4b8b38b14b8,
-    type: 2}
-  PC: {fileID: 0}
-  PC2: {fileID: 0}
-  DeathParticle: {fileID: 1835452577749450, guid: 0da0e27401d514c1ba009279bce92b12,
-    type: 2}
-  RespawnParticle: {fileID: 1238643067095094, guid: a599b55f8171844528f363d2646d3c18,
-    type: 2}
-  RespawnDelay: 0
-  PointPenaltyOnDeath: 0
+  levelManager: {fileID: 0}
