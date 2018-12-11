@@ -7,7 +7,7 @@ public class Projectile : MonoBehaviour {
 	public float Speed;
 
 	public float TimeOut;
-	public GameObject PC;
+	public GameObject HeroPC;
 
 	public GameObject EnemyDeath;
 
@@ -17,13 +17,13 @@ public class Projectile : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		 PC = GameObject.Find("PC"); 
+		 HeroPC = GameObject.Find("HeroPC"); 
 
 		 EnemyDeath = Resources.Load("Prefabs/Death_PS") as GameObject;
 
 		 ProjectileParticle = Resources.Load("Prefabs/Respawn_PS") as GameObject;
 
-		if(PC.transform.localScale.x < 0)
+			if(HeroPC.transform.localScale.x < 0)
 			Speed = -Speed;
 
 			

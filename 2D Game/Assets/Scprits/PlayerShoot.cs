@@ -20,5 +20,6 @@ public class PlayerShoot : MonoBehaviour {
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.RightControl))
 			Instantiate(Projectile,FirePoint.position, FirePoint.rotation);
+			
 	}
 }
