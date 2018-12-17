@@ -741,7 +741,6 @@ GameObject:
   - component: {fileID: 191102660}
   - component: {fileID: 191102659}
   - component: {fileID: 191102658}
-  - component: {fileID: 191102661}
   m_Layer: 0
   m_Name: KillBox
   m_TagString: Untagged
@@ -798,18 +797,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &191102661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 191102657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dc69f2a411764adcab2efce99a6b8ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelManager: {fileID: 0}
 --- !u!1 &211797581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,7 +1109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dc69f2a411764adcab2efce99a6b8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelManager: {fileID: 0}
 --- !u!61 &290737129
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3202,7 +3188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dc69f2a411764adcab2efce99a6b8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelManager: {fileID: 1844619407}
 --- !u!60 &755136785
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4099,7 +4084,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dc69f2a411764adcab2efce99a6b8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelManager: {fileID: 0}
 --- !u!61 &895789299
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4934,7 +4918,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dc69f2a411764adcab2efce99a6b8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelManager: {fileID: 0}
 --- !u!61 &1206629948
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5319,7 +5302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dc69f2a411764adcab2efce99a6b8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelManager: {fileID: 0}
 --- !u!61 &1289154106
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5965,11 +5947,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4503080193813294, guid: bafcae4aa3dab49eaa5e2d2fbbe6e122, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -47.12
+      value: -17.84
       objectReference: {fileID: 0}
     - target: {fileID: 4503080193813294, guid: bafcae4aa3dab49eaa5e2d2fbbe6e122, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.08
+      value: -8.22
       objectReference: {fileID: 0}
     - target: {fileID: 4503080193813294, guid: bafcae4aa3dab49eaa5e2d2fbbe6e122, type: 2}
       propertyPath: m_LocalPosition.z
@@ -6478,8 +6460,7 @@ Prefab:
         type: 2}
       propertyPath: Projectile
       value: 
-      objectReference: {fileID: 1774238207672234, guid: bafcae4aa3dab49eaa5e2d2fbbe6e122,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 212151647372911586, guid: e43eab3f439b043f496d0f69886a212a,
         type: 2}
       propertyPath: m_Sprite
@@ -6543,6 +6524,24 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1596597514662226, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 4466747367379402, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4466747367379402, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727485052244272, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000,
+        type: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
   m_IsPrefabParent: 0
