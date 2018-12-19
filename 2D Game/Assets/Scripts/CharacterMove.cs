@@ -19,10 +19,12 @@ public class CharacterMove : MonoBehaviour {
 	// Non-Slide Player
 	private float moveVelocity;
 
+	public Animator animator;
 
 	// Use this for initialization
 	void Start () {
-		
+		animator.SetBool("Walk",false);
+		animator.SetBool("Player_Jump",false);
 	}
 	
 	void FixedUpdate () {
@@ -62,14 +64,15 @@ public class CharacterMove : MonoBehaviour {
 
 		// Player Flip
 		if(GetComponent<Rigidbody2D>().velocity.x > 0)
-			transform.localScale = new Vector3(1f,1f,1f);
+			transform.localScale = new Vector3(1.26f,1.26f,1f);
 
 		else if(GetComponent<Rigidbody2D>().velocity.x < 0)
-			transform.localScale = new Vector3(-1f,1f,1f);
+			transform.localScale = new Vector3(-1.26f,1.26f,1f);
 
 	}
 
 	public void Jump(){
 		GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, JumpHeight);
+		animator.SetBool("Player_Walk",true);
 	}
 }
