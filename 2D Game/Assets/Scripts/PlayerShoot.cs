@@ -12,7 +12,7 @@ public class PlayerShoot : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 			// Load Projectile from Resources/Prefab Folder
-			Projectile = Resources.Load("Prefab/Projectile") as GameObject;
+			Projectile = Resources.Load("Prefabs/Projectile") as GameObject;
 		
 	}
 	
