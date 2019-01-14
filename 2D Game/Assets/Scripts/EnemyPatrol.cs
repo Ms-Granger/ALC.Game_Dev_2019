@@ -18,7 +18,6 @@ public class EnemyPatrol : MonoBehaviour {
 	private bool NotAtEdge;
 	public Transform EdgeCheck;
 
-
 	// Update is called once per fame
 	void Update () {
 		NotAtEdge = Physics2D.OverlapCircle(EdgeCheck.position, WallCheckRadius, WhatIsWall);
