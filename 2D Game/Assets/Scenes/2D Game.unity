@@ -122,7 +122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6745405}
   - component: {fileID: 6745404}
-  - component: {fileID: 6745403}
   m_Layer: 8
   m_Name: castleMid (19)
   m_TagString: Untagged
@@ -130,34 +129,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &6745403
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 6745402}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &6745404
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -225,7 +196,6 @@ GameObject:
   m_Component:
   - component: {fileID: 22415692}
   - component: {fileID: 22415694}
-  - component: {fileID: 22415693}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -246,34 +216,6 @@ Transform:
   m_Father: {fileID: 523720193}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &22415693
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 22415691}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &22415694
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -550,7 +492,6 @@ GameObject:
   m_Component:
   - component: {fileID: 58109938}
   - component: {fileID: 58109940}
-  - component: {fileID: 58109939}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -571,34 +512,6 @@ Transform:
   m_Father: {fileID: 1328338010}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &58109939
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 58109937}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &58109940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -653,7 +566,6 @@ GameObject:
   m_Component:
   - component: {fileID: 64002282}
   - component: {fileID: 64002284}
-  - component: {fileID: 64002283}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -674,36 +586,6 @@ Transform:
   m_Father: {fileID: 523720193}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &64002283
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 64002281}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &64002284
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -758,7 +640,6 @@ GameObject:
   m_Component:
   - component: {fileID: 66660020}
   - component: {fileID: 66660022}
-  - component: {fileID: 66660021}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -779,34 +660,6 @@ Transform:
   m_Father: {fileID: 523720193}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &66660021
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 66660019}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &66660022
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -935,7 +788,6 @@ GameObject:
   m_Component:
   - component: {fileID: 98608302}
   - component: {fileID: 98608304}
-  - component: {fileID: 98608303}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -956,34 +808,6 @@ Transform:
   m_Father: {fileID: 491869596}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &98608303
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 98608301}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &98608304
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1038,7 +862,6 @@ GameObject:
   m_Component:
   - component: {fileID: 101905083}
   - component: {fileID: 101905085}
-  - component: {fileID: 101905084}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -1059,34 +882,6 @@ Transform:
   m_Father: {fileID: 1634234320}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &101905084
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 101905082}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &101905085
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1173,7 +968,7 @@ Transform:
   - {fileID: 676268490}
   - {fileID: 663142474}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &120841031
 GameObject:
@@ -1184,7 +979,6 @@ GameObject:
   m_Component:
   - component: {fileID: 120841032}
   - component: {fileID: 120841034}
-  - component: {fileID: 120841033}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -1205,34 +999,6 @@ Transform:
   m_Father: {fileID: 1649405760}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &120841033
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 120841031}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &120841034
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1287,7 +1053,6 @@ GameObject:
   m_Component:
   - component: {fileID: 127334699}
   - component: {fileID: 127334701}
-  - component: {fileID: 127334700}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -1308,34 +1073,6 @@ Transform:
   m_Father: {fileID: 1352794927}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &127334700
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 127334698}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &127334701
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1390,7 +1127,6 @@ GameObject:
   m_Component:
   - component: {fileID: 130840003}
   - component: {fileID: 130840005}
-  - component: {fileID: 130840004}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -1411,36 +1147,6 @@ Transform:
   m_Father: {fileID: 396253636}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &130840004
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 130840002}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &130840005
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1569,7 +1275,6 @@ GameObject:
   m_Component:
   - component: {fileID: 177762797}
   - component: {fileID: 177762799}
-  - component: {fileID: 177762798}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -1590,34 +1295,6 @@ Transform:
   m_Father: {fileID: 396253636}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &177762798
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 177762796}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &177762799
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1746,7 +1423,6 @@ GameObject:
   m_Component:
   - component: {fileID: 180665135}
   - component: {fileID: 180665137}
-  - component: {fileID: 180665136}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -1767,34 +1443,6 @@ Transform:
   m_Father: {fileID: 1309828039}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &180665136
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 180665134}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &180665137
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1932,7 +1580,7 @@ Transform:
   m_LocalScale: {x: 2.09375, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &211797581
 GameObject:
@@ -2017,7 +1665,6 @@ GameObject:
   m_Component:
   - component: {fileID: 219630292}
   - component: {fileID: 219630291}
-  - component: {fileID: 219630290}
   m_Layer: 8
   m_Name: castleMid (16)
   m_TagString: Untagged
@@ -2025,34 +1672,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &219630290
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 219630289}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &219630291
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2120,7 +1739,6 @@ GameObject:
   m_Component:
   - component: {fileID: 220170305}
   - component: {fileID: 220170307}
-  - component: {fileID: 220170306}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -2141,34 +1759,6 @@ Transform:
   m_Father: {fileID: 2010858104}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &220170306
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 220170304}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &220170307
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2223,7 +1813,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224032537}
   - component: {fileID: 224032536}
-  - component: {fileID: 224032535}
   m_Layer: 8
   m_Name: castleMid
   m_TagString: Untagged
@@ -2231,34 +1820,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &224032535
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 224032534}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &224032536
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2388,7 +1949,7 @@ Transform:
   m_GameObject: {fileID: 281350705}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.11, y: -1.99, z: 1.0249226}
-  m_LocalScale: {x: 1.6623657, y: 1.6623657, z: 0.79160273}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 4
@@ -2594,13 +2155,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 290737127}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.91, y: 15.7, z: 1}
+  m_LocalPosition: {x: 8.97, y: 15.7, z: 1}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children:
   - {fileID: 431409641}
   - {fileID: 185886098}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &314154742
 GameObject:
@@ -2628,7 +2189,7 @@ Transform:
   m_GameObject: {fileID: 314154742}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.76, y: 7.67, z: 1.0249226}
-  m_LocalScale: {x: 1.4774, y: 1.4774, z: 0.64234996}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 0
@@ -2644,7 +2205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 5
 --- !u!58 &314154745
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2714,7 +2275,6 @@ GameObject:
   m_Component:
   - component: {fileID: 325192842}
   - component: {fileID: 325192844}
-  - component: {fileID: 325192843}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -2735,34 +2295,6 @@ Transform:
   m_Father: {fileID: 1067580271}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &325192843
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 325192841}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &325192844
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2817,7 +2349,6 @@ GameObject:
   m_Component:
   - component: {fileID: 333024397}
   - component: {fileID: 333024399}
-  - component: {fileID: 333024398}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -2838,36 +2369,6 @@ Transform:
   m_Father: {fileID: 2010858104}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &333024398
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 333024396}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &333024399
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2945,7 +2446,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -383.04, y: 342.35}
+  m_AnchoredPosition: {x: -531.2, y: 294.3}
   m_SizeDelta: {x: 124.4, y: 64.3}
   m_Pivot: {x: 0.5583724, y: 0.5}
 --- !u!114 &345956378
@@ -3070,7 +2571,6 @@ GameObject:
   m_Component:
   - component: {fileID: 356514262}
   - component: {fileID: 356514261}
-  - component: {fileID: 356514260}
   m_Layer: 8
   m_Name: castleMid (17)
   m_TagString: Untagged
@@ -3078,34 +2578,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &356514260
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 356514259}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &356514261
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3232,7 +2704,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 357177812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.67, y: 19.69, z: -1.215382}
+  m_LocalPosition: {x: 4.67, y: 18.66, z: -1.215382}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1413865004}
@@ -3267,7 +2739,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &394879844
 GameObject:
@@ -3278,7 +2750,6 @@ GameObject:
   m_Component:
   - component: {fileID: 394879845}
   - component: {fileID: 394879847}
-  - component: {fileID: 394879846}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -3299,34 +2770,6 @@ Transform:
   m_Father: {fileID: 1328338010}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &394879846
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 394879844}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &394879847
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3380,7 +2823,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 396253636}
-  m_Layer: 0
+  - component: {fileID: 396253637}
+  m_Layer: 8
   m_Name: Platform (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3406,6 +2850,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &396253637
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 396253635}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.6414745, y: -1.0362468}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.146834, y: 1.0467482}
+  m_EdgeRadius: 0
 --- !u!1 &419327961
 GameObject:
   m_ObjectHideFlags: 0
@@ -3489,7 +2958,6 @@ GameObject:
   m_Component:
   - component: {fileID: 427486663}
   - component: {fileID: 427486665}
-  - component: {fileID: 427486664}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -3510,36 +2978,6 @@ Transform:
   m_Father: {fileID: 1067580271}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &427486664
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 427486662}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &427486665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3622,7 +3060,6 @@ GameObject:
   m_Component:
   - component: {fileID: 446222653}
   - component: {fileID: 446222655}
-  - component: {fileID: 446222654}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -3643,34 +3080,6 @@ Transform:
   m_Father: {fileID: 1649405760}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &446222654
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 446222652}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &446222655
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3725,7 +3134,6 @@ GameObject:
   m_Component:
   - component: {fileID: 452963413}
   - component: {fileID: 452963415}
-  - component: {fileID: 452963414}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -3746,34 +3154,6 @@ Transform:
   m_Father: {fileID: 1067580271}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &452963414
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 452963412}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &452963415
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3828,7 +3208,6 @@ GameObject:
   m_Component:
   - component: {fileID: 461786722}
   - component: {fileID: 461786724}
-  - component: {fileID: 461786723}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -3849,34 +3228,6 @@ Transform:
   m_Father: {fileID: 1850910991}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &461786723
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 461786721}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &461786724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4078,7 +3429,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 491869596}
-  m_Layer: 0
+  - component: {fileID: 491869597}
+  m_Layer: 8
   m_Name: Platform (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4104,6 +3456,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &491869597
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 491869595}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.643258, y: -1.0254022}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.158909, y: 1.0455749}
+  m_EdgeRadius: 0
 --- !u!1 &493666350
 GameObject:
   m_ObjectHideFlags: 0
@@ -4112,7 +3489,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 493666351}
-  m_Layer: 0
+  - component: {fileID: 493666352}
+  m_Layer: 8
   m_Name: Platform (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4138,6 +3516,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &493666352
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 493666350}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.638019, y: -1.0299823}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.1499176, y: 1.0420412}
+  m_EdgeRadius: 0
 --- !u!1 &503447650
 GameObject:
   m_ObjectHideFlags: 0
@@ -4221,7 +3624,6 @@ GameObject:
   m_Component:
   - component: {fileID: 508643165}
   - component: {fileID: 508643167}
-  - component: {fileID: 508643166}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -4242,36 +3644,6 @@ Transform:
   m_Father: {fileID: 1850910991}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &508643166
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 508643164}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &508643167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4414,7 +3786,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 523720193}
-  m_Layer: 0
+  - component: {fileID: 523720194}
+  m_Layer: 8
   m_Name: Platform (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4440,6 +3813,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &523720194
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 523720192}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.6390946, y: -1.0328958}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.1455226, y: 1.0379038}
+  m_EdgeRadius: 0
 --- !u!1 &525401178
 GameObject:
   m_ObjectHideFlags: 0
@@ -4449,7 +3847,6 @@ GameObject:
   m_Component:
   - component: {fileID: 525401181}
   - component: {fileID: 525401180}
-  - component: {fileID: 525401179}
   m_Layer: 8
   m_Name: castleRight
   m_TagString: Untagged
@@ -4457,36 +3854,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &525401179
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 525401178}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &525401180
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4554,7 +3921,6 @@ GameObject:
   m_Component:
   - component: {fileID: 536768314}
   - component: {fileID: 536768316}
-  - component: {fileID: 536768315}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -4575,36 +3941,6 @@ Transform:
   m_Father: {fileID: 2010858104}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &536768315
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 536768313}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &536768316
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4686,7 +4022,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 549354645}
-  m_Layer: 0
+  - component: {fileID: 549354646}
+  m_Layer: 8
   m_Name: Platform (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4712,6 +4049,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &549354646
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 549354644}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.6410594, y: -1.0308956}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.144664, y: 1.0392716}
+  m_EdgeRadius: 0
 --- !u!1 &553302894
 GameObject:
   m_ObjectHideFlags: 0
@@ -4721,7 +4083,6 @@ GameObject:
   m_Component:
   - component: {fileID: 553302895}
   - component: {fileID: 553302897}
-  - component: {fileID: 553302896}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -4742,34 +4103,6 @@ Transform:
   m_Father: {fileID: 2010858104}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &553302896
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 553302894}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &553302897
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4824,7 +4157,6 @@ GameObject:
   m_Component:
   - component: {fileID: 556999195}
   - component: {fileID: 556999194}
-  - component: {fileID: 556999193}
   m_Layer: 8
   m_Name: castleMid (3)
   m_TagString: Untagged
@@ -4832,34 +4164,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &556999193
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 556999192}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &556999194
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4927,7 +4231,6 @@ GameObject:
   m_Component:
   - component: {fileID: 563919279}
   - component: {fileID: 563919278}
-  - component: {fileID: 563919277}
   m_Layer: 8
   m_Name: castleMid (2)
   m_TagString: Untagged
@@ -4935,34 +4238,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &563919277
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 563919276}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &563919278
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5132,7 +4407,6 @@ GameObject:
   m_Component:
   - component: {fileID: 594997908}
   - component: {fileID: 594997910}
-  - component: {fileID: 594997909}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -5153,36 +4427,6 @@ Transform:
   m_Father: {fileID: 493666351}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &594997909
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 594997907}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &594997910
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5254,7 +4498,7 @@ Transform:
   m_GameObject: {fileID: 597213649}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.29, y: 4.37, z: 1.0249226}
-  m_LocalScale: {x: 1.66237, y: 1.66237, z: 0.7916}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 7
@@ -5270,7 +4514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 10
 --- !u!58 &597213652
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5340,7 +4584,6 @@ GameObject:
   m_Component:
   - component: {fileID: 611638420}
   - component: {fileID: 611638422}
-  - component: {fileID: 611638421}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -5361,34 +4604,6 @@ Transform:
   m_Father: {fileID: 523720193}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &611638421
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 611638419}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &611638422
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5445,7 +4660,6 @@ GameObject:
   - component: {fileID: 619810979}
   - component: {fileID: 619810978}
   - component: {fileID: 619810981}
-  - component: {fileID: 619810982}
   m_Layer: 0
   m_Name: Coin Gold
   m_TagString: Untagged
@@ -5521,7 +4735,7 @@ Transform:
   m_GameObject: {fileID: 619810977}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.22, y: -1.9, z: 1.024923}
-  m_LocalScale: {x: 1.657514, y: 1.657514, z: 0.828757}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 10
@@ -5537,25 +4751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 25
---- !u!95 &619810982
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 619810977}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f3486fbb975154ad1a31bcb8633cb00d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  PointsToAdd: 15
 --- !u!1 &623750759
 GameObject:
   m_ObjectHideFlags: 0
@@ -5565,7 +4761,6 @@ GameObject:
   m_Component:
   - component: {fileID: 623750762}
   - component: {fileID: 623750761}
-  - component: {fileID: 623750760}
   m_Layer: 8
   m_Name: castleMid (18)
   m_TagString: Untagged
@@ -5573,34 +4768,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &623750760
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 623750759}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &623750761
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5668,7 +4835,6 @@ GameObject:
   m_Component:
   - component: {fileID: 634144777}
   - component: {fileID: 634144779}
-  - component: {fileID: 634144778}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -5689,36 +4855,6 @@ Transform:
   m_Father: {fileID: 549354645}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &634144778
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 634144776}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &634144779
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5773,7 +4909,6 @@ GameObject:
   m_Component:
   - component: {fileID: 638312875}
   - component: {fileID: 638312877}
-  - component: {fileID: 638312876}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -5794,34 +4929,6 @@ Transform:
   m_Father: {fileID: 549354645}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &638312876
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 638312874}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &638312877
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5878,7 +4985,6 @@ GameObject:
   - component: {fileID: 663142478}
   - component: {fileID: 663142477}
   - component: {fileID: 663142476}
-  - component: {fileID: 663142475}
   m_Layer: 0
   m_Name: Coin Gold (8)
   m_TagString: Untagged
@@ -5894,29 +5000,11 @@ Transform:
   m_GameObject: {fileID: 663142473}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.77, y: 12.21, z: 1.024923}
-  m_LocalScale: {x: 1.6575099, y: 1.6575099, z: 0.82875997}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &663142475
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 663142473}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f3486fbb975154ad1a31bcb8633cb00d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &663142476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5928,7 +5016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 15
 --- !u!58 &663142477
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5998,7 +5086,6 @@ GameObject:
   m_Component:
   - component: {fileID: 667888083}
   - component: {fileID: 667888085}
-  - component: {fileID: 667888084}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -6019,34 +5106,6 @@ Transform:
   m_Father: {fileID: 1671549685}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &667888084
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 667888082}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &667888085
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6101,7 +5160,6 @@ GameObject:
   m_Component:
   - component: {fileID: 672081012}
   - component: {fileID: 672081014}
-  - component: {fileID: 672081013}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -6122,34 +5180,6 @@ Transform:
   m_Father: {fileID: 1850910991}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &672081013
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 672081011}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &672081014
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6206,7 +5236,6 @@ GameObject:
   - component: {fileID: 676268494}
   - component: {fileID: 676268493}
   - component: {fileID: 676268492}
-  - component: {fileID: 676268491}
   m_Layer: 0
   m_Name: Coin Gold (7)
   m_TagString: Untagged
@@ -6222,29 +5251,11 @@ Transform:
   m_GameObject: {fileID: 676268489}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.03, y: 7.65, z: 1.024923}
-  m_LocalScale: {x: 1.6575099, y: 1.6575099, z: 0.82875997}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &676268491
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 676268489}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f3486fbb975154ad1a31bcb8633cb00d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &676268492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6256,7 +5267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 15
 --- !u!58 &676268493
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6326,7 +5337,6 @@ GameObject:
   m_Component:
   - component: {fileID: 704662069}
   - component: {fileID: 704662071}
-  - component: {fileID: 704662070}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -6347,34 +5357,6 @@ Transform:
   m_Father: {fileID: 1671549685}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &704662070
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 704662068}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &704662071
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6429,7 +5411,6 @@ GameObject:
   m_Component:
   - component: {fileID: 716527848}
   - component: {fileID: 716527850}
-  - component: {fileID: 716527849}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -6450,34 +5431,6 @@ Transform:
   m_Father: {fileID: 1067580271}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &716527849
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 716527847}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &716527850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6532,7 +5485,6 @@ GameObject:
   m_Component:
   - component: {fileID: 721542639}
   - component: {fileID: 721542638}
-  - component: {fileID: 721542637}
   m_Layer: 8
   m_Name: castleMid (22)
   m_TagString: Untagged
@@ -6540,34 +5492,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &721542637
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 721542636}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &721542638
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6635,7 +5559,6 @@ GameObject:
   m_Component:
   - component: {fileID: 760778909}
   - component: {fileID: 760778911}
-  - component: {fileID: 760778910}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -6656,34 +5579,6 @@ Transform:
   m_Father: {fileID: 1352794927}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &760778910
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 760778908}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &760778911
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6891,7 +5786,7 @@ RectTransform:
   - {fileID: 345956377}
   - {fileID: 2057448711}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6907,7 +5802,6 @@ GameObject:
   m_Component:
   - component: {fileID: 849385162}
   - component: {fileID: 849385161}
-  - component: {fileID: 849385160}
   m_Layer: 8
   m_Name: castleLeft
   m_TagString: Untagged
@@ -6915,36 +5809,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &849385160
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 849385159}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &849385161
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7012,7 +5876,6 @@ GameObject:
   m_Component:
   - component: {fileID: 865337229}
   - component: {fileID: 865337231}
-  - component: {fileID: 865337230}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -7033,34 +5896,6 @@ Transform:
   m_Father: {fileID: 1309828039}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &865337230
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 865337228}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &865337231
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7115,7 +5950,6 @@ GameObject:
   m_Component:
   - component: {fileID: 882916295}
   - component: {fileID: 882916294}
-  - component: {fileID: 882916293}
   m_Layer: 8
   m_Name: castleMid (7)
   m_TagString: Untagged
@@ -7123,34 +5957,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &882916293
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 882916292}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &882916294
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7218,7 +6024,6 @@ GameObject:
   m_Component:
   - component: {fileID: 885096593}
   - component: {fileID: 885096592}
-  - component: {fileID: 885096591}
   m_Layer: 8
   m_Name: castleMid (4)
   m_TagString: Untagged
@@ -7226,34 +6031,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &885096591
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 885096590}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &885096592
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7321,7 +6098,6 @@ GameObject:
   m_Component:
   - component: {fileID: 888052492}
   - component: {fileID: 888052494}
-  - component: {fileID: 888052493}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -7342,36 +6118,6 @@ Transform:
   m_Father: {fileID: 396253636}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &888052493
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 888052491}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &888052494
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7426,7 +6172,6 @@ GameObject:
   m_Component:
   - component: {fileID: 923292888}
   - component: {fileID: 923292887}
-  - component: {fileID: 923292886}
   m_Layer: 8
   m_Name: castleMid (23)
   m_TagString: Untagged
@@ -7434,34 +6179,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &923292886
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 923292885}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &923292887
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7529,7 +6246,6 @@ GameObject:
   m_Component:
   - component: {fileID: 956164022}
   - component: {fileID: 956164024}
-  - component: {fileID: 956164023}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -7550,34 +6266,6 @@ Transform:
   m_Father: {fileID: 493666351}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &956164023
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 956164021}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &956164024
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7632,7 +6320,6 @@ GameObject:
   m_Component:
   - component: {fileID: 984578423}
   - component: {fileID: 984578422}
-  - component: {fileID: 984578421}
   m_Layer: 8
   m_Name: castleMid (15)
   m_TagString: Untagged
@@ -7640,34 +6327,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &984578421
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 984578420}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &984578422
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7884,7 +6543,7 @@ Transform:
   m_GameObject: {fileID: 1007301747}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.28, y: 3.48, z: 1.0249226}
-  m_LocalScale: {x: 1.66237, y: 1.66237, z: 0.7916}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 5
@@ -7900,7 +6559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 10
 --- !u!58 &1007301750
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7970,7 +6629,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1020930234}
   - component: {fileID: 1020930236}
-  - component: {fileID: 1020930235}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -7991,34 +6649,6 @@ Transform:
   m_Father: {fileID: 493666351}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1020930235
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1020930233}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1020930236
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8073,7 +6703,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1043260369}
   - component: {fileID: 1043260371}
-  - component: {fileID: 1043260370}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -8094,34 +6723,6 @@ Transform:
   m_Father: {fileID: 1328338010}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1043260370
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1043260368}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1043260371
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8235,7 +6836,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1048738418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.77, y: 18.17, z: -1.215382}
+  m_LocalPosition: {x: 0.54, y: 16.7, z: -1.215382}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1413865004}
@@ -8267,7 +6868,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1067580270
 GameObject:
@@ -8277,7 +6878,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1067580271}
-  m_Layer: 0
+  - component: {fileID: 1067580272}
+  m_Layer: 8
   m_Name: Platform (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8303,6 +6905,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1067580272
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1067580270}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.6404443, y: -1.0327425}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.146882, y: 1.0533504}
+  m_EdgeRadius: 0
 --- !u!1 &1087603671
 GameObject:
   m_ObjectHideFlags: 0
@@ -8312,7 +6939,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1087603672}
   - component: {fileID: 1087603674}
-  - component: {fileID: 1087603673}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -8333,36 +6959,6 @@ Transform:
   m_Father: {fileID: 1634234320}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1087603673
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1087603671}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1087603674
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8417,7 +7013,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1092386230}
   - component: {fileID: 1092386232}
-  - component: {fileID: 1092386231}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -8438,36 +7033,6 @@ Transform:
   m_Father: {fileID: 1649405760}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1092386231
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1092386229}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1092386232
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8522,7 +7087,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1105751438}
   - component: {fileID: 1105751440}
-  - component: {fileID: 1105751439}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -8543,34 +7107,6 @@ Transform:
   m_Father: {fileID: 523720193}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1105751439
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1105751437}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1105751440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8625,7 +7161,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1116823864}
   - component: {fileID: 1116823866}
-  - component: {fileID: 1116823865}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -8646,34 +7181,6 @@ Transform:
   m_Father: {fileID: 1649405760}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1116823865
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1116823863}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1116823866
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8728,7 +7235,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1139483223}
   - component: {fileID: 1139483225}
-  - component: {fileID: 1139483224}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -8749,34 +7255,6 @@ Transform:
   m_Father: {fileID: 493666351}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1139483224
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1139483222}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1139483225
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8859,7 +7337,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1155796082}
   - component: {fileID: 1155796084}
-  - component: {fileID: 1155796083}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -8880,34 +7357,6 @@ Transform:
   m_Father: {fileID: 1850910991}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1155796083
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1155796081}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1155796084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8962,7 +7411,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1157003797}
   - component: {fileID: 1157003799}
-  - component: {fileID: 1157003798}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -8983,36 +7431,6 @@ Transform:
   m_Father: {fileID: 1309828039}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1157003798
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1157003796}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1157003799
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9067,7 +7485,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1166988255}
   - component: {fileID: 1166988257}
-  - component: {fileID: 1166988256}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -9088,34 +7505,6 @@ Transform:
   m_Father: {fileID: 2010858104}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1166988256
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1166988254}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1166988257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9170,7 +7559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1167831812}
   - component: {fileID: 1167831813}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9196,18 +7585,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1167831813
-BoxCollider:
+--- !u!61 &1167831813
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1167831811}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.649829, y: -1.0334344}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.2375016, y: 1.1293204, z: 1}
-  m_Center: {x: -2.6187537, y: -1.0345687, z: 0}
+  m_Size: {x: 6.151268, y: 1.0317984}
+  m_EdgeRadius: 0
 --- !u!1 &1183395585
 GameObject:
   m_ObjectHideFlags: 0
@@ -9217,7 +7619,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1183395586}
   - component: {fileID: 1183395588}
-  - component: {fileID: 1183395587}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -9238,34 +7639,6 @@ Transform:
   m_Father: {fileID: 1649405760}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1183395587
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1183395585}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1183395588
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9320,7 +7693,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1198340507}
   - component: {fileID: 1198340509}
-  - component: {fileID: 1198340508}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -9341,34 +7713,6 @@ Transform:
   m_Father: {fileID: 1352794927}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1198340508
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1198340506}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1198340509
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9594,7 +7938,7 @@ Transform:
   - {fileID: 545175912}
   - {fileID: 1465433367}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1212689251
 GameObject:
@@ -9605,7 +7949,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1212689252}
   - component: {fileID: 1212689254}
-  - component: {fileID: 1212689253}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -9626,34 +7969,6 @@ Transform:
   m_Father: {fileID: 1634234320}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1212689253
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1212689251}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1212689254
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9708,7 +8023,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1229568687}
   - component: {fileID: 1229568689}
-  - component: {fileID: 1229568688}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -9729,36 +8043,6 @@ Transform:
   m_Father: {fileID: 1634234320}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1229568688
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1229568686}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &1229568689
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9813,7 +8097,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1238825631}
   - component: {fileID: 1238825633}
-  - component: {fileID: 1238825632}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -9834,36 +8117,6 @@ Transform:
   m_Father: {fileID: 523720193}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1238825632
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1238825630}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1238825633
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9918,7 +8171,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1242854423}
   - component: {fileID: 1242854425}
-  - component: {fileID: 1242854424}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -9939,34 +8191,6 @@ Transform:
   m_Father: {fileID: 1671549685}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1242854424
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1242854422}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1242854425
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10021,7 +8245,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1246729651}
   - component: {fileID: 1246729653}
-  - component: {fileID: 1246729652}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -10042,36 +8265,6 @@ Transform:
   m_Father: {fileID: 1328338010}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1246729652
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1246729650}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &1246729653
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10126,7 +8319,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1253197745}
   - component: {fileID: 1253197747}
-  - component: {fileID: 1253197746}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -10147,34 +8339,6 @@ Transform:
   m_Father: {fileID: 1309828039}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1253197746
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1253197744}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1253197747
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10246,7 +8410,7 @@ Transform:
   m_GameObject: {fileID: 1280700837}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.33, y: 3.93, z: 1.0249226}
-  m_LocalScale: {x: 1.4774, y: 1.4774, z: 0.64234996}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 1
@@ -10262,7 +8426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 5
 --- !u!58 &1280700840
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10503,7 +8667,7 @@ Transform:
   - {fileID: 1476281784}
   - {fileID: 2146344759}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1308918794
 GameObject:
@@ -10514,7 +8678,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1308918795}
   - component: {fileID: 1308918797}
-  - component: {fileID: 1308918796}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -10535,36 +8698,6 @@ Transform:
   m_Father: {fileID: 493666351}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1308918796
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1308918794}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &1308918797
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10618,7 +8751,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1309828039}
-  m_Layer: 0
+  - component: {fileID: 1309828040}
+  m_Layer: 8
   m_Name: Platform (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10644,6 +8778,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1309828040
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1309828038}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.649265, y: -1.0257497}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.141705, y: 1.0382276}
+  m_EdgeRadius: 0
 --- !u!1 &1323475535
 GameObject:
   m_ObjectHideFlags: 0
@@ -10653,7 +8812,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1323475536}
   - component: {fileID: 1323475538}
-  - component: {fileID: 1323475537}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -10674,36 +8832,6 @@ Transform:
   m_Father: {fileID: 1649405760}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1323475537
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1323475535}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &1323475538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10757,7 +8885,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1328338010}
-  m_Layer: 0
+  - component: {fileID: 1328338011}
+  m_Layer: 8
   m_Name: Platform (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10783,6 +8912,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1328338011
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1328338009}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.643779, y: -1.0339059}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.1553693, y: 1.0472109}
+  m_EdgeRadius: 0
 --- !u!1001 &1344401266
 Prefab:
   m_ObjectHideFlags: 0
@@ -10820,7 +8974,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4585371615907716, guid: 5c7b31f629ae54a7e9d6cc5863216321, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114231547745963634, guid: 5c7b31f629ae54a7e9d6cc5863216321,
         type: 2}
@@ -10838,7 +8992,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1352794927}
-  m_Layer: 0
+  - component: {fileID: 1352794928}
+  m_Layer: 8
   m_Name: Platform (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10864,6 +9019,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1352794928
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1352794926}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.6392858, y: -1.0301042}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.146998, y: 1.0449767}
+  m_EdgeRadius: 0
 --- !u!1 &1371011134 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1755657799085336, guid: e43eab3f439b043f496d0f69886a212a,
@@ -10916,7 +9096,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1371649104}
   - component: {fileID: 1371649103}
-  - component: {fileID: 1371649102}
   m_Layer: 8
   m_Name: castleMid (10)
   m_TagString: Untagged
@@ -10924,34 +9103,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &1371649102
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1371649101}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1371649103
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11019,7 +9170,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1387592530}
   - component: {fileID: 1387592529}
-  - component: {fileID: 1387592528}
   m_Layer: 8
   m_Name: castleMid (8)
   m_TagString: Untagged
@@ -11027,34 +9177,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &1387592528
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1387592527}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1387592529
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11124,7 +9246,6 @@ GameObject:
   - component: {fileID: 1400750242}
   - component: {fileID: 1400750241}
   - component: {fileID: 1400750240}
-  - component: {fileID: 1400750239}
   m_Layer: 0
   m_Name: Coin Gold (5)
   m_TagString: Untagged
@@ -11140,29 +9261,11 @@ Transform:
   m_GameObject: {fileID: 1400750237}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 8.31, y: -1.95, z: 1.024923}
-  m_LocalScale: {x: 1.6575099, y: 1.6575099, z: 0.82875997}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1400750239
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1400750237}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f3486fbb975154ad1a31bcb8633cb00d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1400750240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11174,7 +9277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 15
 --- !u!58 &1400750241
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11244,7 +9347,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1408164518}
   - component: {fileID: 1408164520}
-  - component: {fileID: 1408164519}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -11265,34 +9367,6 @@ Transform:
   m_Father: {fileID: 1850910991}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1408164519
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1408164517}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1408164520
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11374,7 +9448,7 @@ Transform:
   - {fileID: 419327963}
   - {fileID: 40625214}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1465433366
 GameObject:
@@ -11413,7 +9487,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1466011437}
   - component: {fileID: 1466011439}
-  - component: {fileID: 1466011438}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -11434,34 +9507,6 @@ Transform:
   m_Father: {fileID: 396253636}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1466011438
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1466011436}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1466011439
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11544,7 +9589,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1479232963}
   - component: {fileID: 1479232962}
-  - component: {fileID: 1479232961}
   m_Layer: 8
   m_Name: castleMid (9)
   m_TagString: Untagged
@@ -11552,34 +9596,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &1479232961
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1479232960}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1479232962
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11647,7 +9663,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1491010606}
   - component: {fileID: 1491010608}
-  - component: {fileID: 1491010607}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -11668,34 +9683,6 @@ Transform:
   m_Father: {fileID: 1634234320}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1491010607
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1491010605}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1491010608
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11752,7 +9739,6 @@ GameObject:
   - component: {fileID: 1536273897}
   - component: {fileID: 1536273896}
   - component: {fileID: 1536273895}
-  - component: {fileID: 1536273894}
   m_Layer: 0
   m_Name: Coin Gold (6)
   m_TagString: Untagged
@@ -11768,29 +9754,11 @@ Transform:
   m_GameObject: {fileID: 1536273892}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.38, y: 1.79, z: 1.024923}
-  m_LocalScale: {x: 1.6575099, y: 1.6575099, z: 0.82875997}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1536273894
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1536273892}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f3486fbb975154ad1a31bcb8633cb00d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1536273895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11802,7 +9770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 15
 --- !u!58 &1536273896
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11916,7 +9884,8 @@ Prefab:
         type: 2}
       propertyPath: ProjectileParticle
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1280332283134672, guid: f1def3394763944afbd2ed576e95be20,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bafcae4aa3dab49eaa5e2d2fbbe6e122, type: 2}
   m_IsPrefabParent: 0
@@ -11929,7 +9898,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1575268246}
   - component: {fileID: 1575268248}
-  - component: {fileID: 1575268247}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -11950,34 +9918,6 @@ Transform:
   m_Father: {fileID: 1067580271}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1575268247
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1575268245}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1575268248
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12032,7 +9972,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1578338324}
   - component: {fileID: 1578338326}
-  - component: {fileID: 1578338325}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -12053,36 +9992,6 @@ Transform:
   m_Father: {fileID: 1671549685}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1578338325
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1578338323}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &1578338326
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12137,7 +10046,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1582014085}
   - component: {fileID: 1582014087}
-  - component: {fileID: 1582014086}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -12158,34 +10066,6 @@ Transform:
   m_Father: {fileID: 491869596}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1582014086
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1582014084}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1582014087
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12240,7 +10120,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1595134384}
   - component: {fileID: 1595134386}
-  - component: {fileID: 1595134385}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -12261,34 +10140,6 @@ Transform:
   m_Father: {fileID: 549354645}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1595134385
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1595134383}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1595134386
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12343,7 +10194,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1596846563}
   - component: {fileID: 1596846562}
-  - component: {fileID: 1596846561}
   m_Layer: 8
   m_Name: castleMid (21)
   m_TagString: Untagged
@@ -12351,34 +10201,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &1596846561
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1596846560}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1596846562
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12445,7 +10267,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1634234320}
-  m_Layer: 0
+  - component: {fileID: 1634234321}
+  m_Layer: 8
   m_Name: Platform (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12459,7 +10282,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1634234319}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.26, y: 15.31, z: -0.06986728}
+  m_LocalPosition: {x: 10.32, y: 15.31, z: -0.06986728}
   m_LocalScale: {x: 0.55686307, y: 0.5568631, z: 0.5568631}
   m_Children:
   - {fileID: 1087603672}
@@ -12471,6 +10294,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1634234321
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1634234319}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.639793, y: -1.0251606}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.1565685, y: 1.0410091}
+  m_EdgeRadius: 0
 --- !u!1 &1637507451
 GameObject:
   m_ObjectHideFlags: 0
@@ -12480,7 +10328,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1637507452}
   - component: {fileID: 1637507454}
-  - component: {fileID: 1637507453}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -12501,36 +10348,6 @@ Transform:
   m_Father: {fileID: 1067580271}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1637507453
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1637507451}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1637507454
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12584,7 +10401,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1649405760}
-  m_Layer: 0
+  - component: {fileID: 1649405761}
+  m_Layer: 8
   m_Name: Platform (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12610,6 +10428,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1649405761
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1649405759}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.6460829, y: -1.0298827}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.149412, y: 1.0407863}
+  m_EdgeRadius: 0
 --- !u!1 &1671549684
 GameObject:
   m_ObjectHideFlags: 0
@@ -12618,7 +10461,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1671549685}
-  m_Layer: 0
+  - component: {fileID: 1671549686}
+  m_Layer: 8
   m_Name: Platform (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12644,6 +10488,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1671549686
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1671549684}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.6451077, y: -1.0333372}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.1524563, y: 1.0536773}
+  m_EdgeRadius: 0
 --- !u!1 &1677330578
 GameObject:
   m_ObjectHideFlags: 0
@@ -12670,7 +10539,7 @@ Transform:
   m_GameObject: {fileID: 1677330578}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.74, y: -4.59, z: 1.0249226}
-  m_LocalScale: {x: 1.4774, y: 1.4774, z: 0.64234996}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 2
@@ -12686,7 +10555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 5
 --- !u!58 &1677330581
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12756,7 +10625,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1678998456}
   - component: {fileID: 1678998458}
-  - component: {fileID: 1678998457}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -12777,36 +10645,6 @@ Transform:
   m_Father: {fileID: 549354645}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1678998457
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1678998455}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1678998458
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12924,7 +10762,7 @@ Transform:
   m_LocalScale: {x: 19.8658, y: 23.074072, z: 19.8658}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1707505189
 GameObject:
@@ -13106,7 +10944,7 @@ Transform:
   - {fileID: 1153618528}
   - {fileID: 592608577}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1730017138
 GameObject:
@@ -13134,7 +10972,7 @@ Transform:
   m_GameObject: {fileID: 1730017138}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.67, y: 16.86, z: 1.0249226}
-  m_LocalScale: {x: 1.4774, y: 1.4774, z: 0.64234996}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 3
@@ -13150,7 +10988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 5
 --- !u!58 &1730017141
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13220,7 +11058,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1746899652}
   - component: {fileID: 1746899651}
-  - component: {fileID: 1746899650}
   m_Layer: 8
   m_Name: castleMid (6)
   m_TagString: Untagged
@@ -13228,34 +11065,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &1746899650
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1746899649}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1746899651
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13340,7 +11149,7 @@ Transform:
   m_GameObject: {fileID: 1748768197}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.31, y: 6.82, z: 1.0249226}
-  m_LocalScale: {x: 1.66237, y: 1.66237, z: 0.7916}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 6
@@ -13356,7 +11165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 10
 --- !u!58 &1748768200
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13426,7 +11235,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1762313964}
   - component: {fileID: 1762313966}
-  - component: {fileID: 1762313965}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -13447,36 +11255,6 @@ Transform:
   m_Father: {fileID: 491869596}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1762313965
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1762313963}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1762313966
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13531,7 +11309,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1766275889}
   - component: {fileID: 1766275891}
-  - component: {fileID: 1766275890}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -13552,34 +11329,6 @@ Transform:
   m_Father: {fileID: 549354645}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1766275890
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1766275888}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1766275891
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13638,7 +11387,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4912527223988102, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.24
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 4912527223988102, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
       propertyPath: m_LocalPosition.z
@@ -13748,12 +11497,26 @@ Prefab:
     - target: {fileID: 1727485052244272, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 114188253240658748, guid: e43eab3f439b043f496d0f69886a212a,
         type: 2}
       propertyPath: animator
       value: 
       objectReference: {fileID: 1371011136}
+    - target: {fileID: 4513926040297588, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513926040297588, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 114188253240658748, guid: e43eab3f439b043f496d0f69886a212a,
+        type: 2}
+      propertyPath: groundCheckRadius
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
   m_IsPrefabParent: 0
@@ -13840,7 +11603,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1793563912}
   - component: {fileID: 1793563914}
-  - component: {fileID: 1793563913}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -13861,36 +11623,6 @@ Transform:
   m_Father: {fileID: 1352794927}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1793563913
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1793563911}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1793563914
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13945,7 +11677,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1798818488}
   - component: {fileID: 1798818490}
-  - component: {fileID: 1798818489}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -13966,36 +11697,6 @@ Transform:
   m_Father: {fileID: 491869596}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1798818489
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1798818487}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &1798818490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14050,7 +11751,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1802690233}
   - component: {fileID: 1802690235}
-  - component: {fileID: 1802690234}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -14071,34 +11771,6 @@ Transform:
   m_Father: {fileID: 491869596}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1802690234
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1802690232}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1802690235
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14153,7 +11825,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1802759380}
   - component: {fileID: 1802759382}
-  - component: {fileID: 1802759381}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -14174,34 +11845,6 @@ Transform:
   m_Father: {fileID: 1328338010}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1802759381
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1802759379}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1802759382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14256,7 +11899,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1808052618}
   - component: {fileID: 1808052620}
-  - component: {fileID: 1808052619}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -14277,36 +11919,6 @@ Transform:
   m_Father: {fileID: 1309828039}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1808052619
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1808052617}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &1808052620
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14383,7 +11995,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1849867730}
   - component: {fileID: 1849867732}
-  - component: {fileID: 1849867731}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -14404,34 +12015,6 @@ Transform:
   m_Father: {fileID: 1309828039}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1849867731
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1849867729}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1849867732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14485,7 +12068,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1850910991}
-  m_Layer: 0
+  - component: {fileID: 1850910992}
+  m_Layer: 8
   m_Name: Platform (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14511,6 +12095,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1850910992
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1850910990}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.642574, y: -1.0331681}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.1500926, y: 1.0495195}
+  m_EdgeRadius: 0
 --- !u!1 &1852899445
 GameObject:
   m_ObjectHideFlags: 0
@@ -14520,7 +12129,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1852899448}
   - component: {fileID: 1852899447}
-  - component: {fileID: 1852899446}
   m_Layer: 8
   m_Name: castleMid (11)
   m_TagString: Untagged
@@ -14528,34 +12136,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &1852899446
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1852899445}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1852899447
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14623,7 +12203,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1856197941}
   - component: {fileID: 1856197943}
-  - component: {fileID: 1856197942}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -14644,36 +12223,6 @@ Transform:
   m_Father: {fileID: 1352794927}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1856197942
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1856197940}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &1856197943
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14728,7 +12277,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1873633598}
   - component: {fileID: 1873633600}
-  - component: {fileID: 1873633599}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -14749,34 +12297,6 @@ Transform:
   m_Father: {fileID: 396253636}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1873633599
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1873633597}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1873633600
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14905,7 +12425,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1924769491}
   - component: {fileID: 1924769490}
-  - component: {fileID: 1924769489}
   m_Layer: 8
   m_Name: castleMid (14)
   m_TagString: Untagged
@@ -14913,34 +12432,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &1924769489
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1924769488}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1924769490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15008,7 +12499,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1930957102}
   - component: {fileID: 1930957104}
-  - component: {fileID: 1930957103}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -15029,34 +12519,6 @@ Transform:
   m_Father: {fileID: 396253636}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1930957103
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1930957101}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1930957104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15185,7 +12647,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1963090724}
   - component: {fileID: 1963090726}
-  - component: {fileID: 1963090725}
   m_Layer: 8
   m_Name: castleMid (24)
   m_TagString: Untagged
@@ -15206,34 +12667,6 @@ Transform:
   m_Father: {fileID: 549354645}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1963090725
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1963090723}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1963090726
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15288,7 +12721,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1966977463}
   - component: {fileID: 1966977462}
-  - component: {fileID: 1966977461}
   m_Layer: 8
   m_Name: castleMid (20)
   m_TagString: Untagged
@@ -15296,34 +12728,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &1966977461
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1966977460}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1966977462
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15391,7 +12795,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1982074819}
   - component: {fileID: 1982074818}
-  - component: {fileID: 1982074817}
   m_Layer: 8
   m_Name: castleMid (5)
   m_TagString: Untagged
@@ -15399,34 +12802,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &1982074817
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1982074816}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1982074818
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15494,7 +12869,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1995057168}
   - component: {fileID: 1995057170}
-  - component: {fileID: 1995057169}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -15515,36 +12889,6 @@ Transform:
   m_Father: {fileID: 1671549685}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1995057169
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1995057167}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &1995057170
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15599,10 +12943,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2006996400}
   - component: {fileID: 2006996401}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform
   m_TagString: Untagged
-  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -15637,7 +12981,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.6551805, y: -1.0453472}
+  m_Offset: {x: -2.6551807, y: -1.030602}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -15648,7 +12992,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.310361, y: 1.1672592}
+  m_Size: {x: 6.18492, y: 1.0541391}
   m_EdgeRadius: 0
 --- !u!1 &2010309940
 GameObject:
@@ -15732,7 +13076,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2010858104}
-  m_Layer: 0
+  - component: {fileID: 2010858105}
+  m_Layer: 8
   m_Name: Platform (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15758,6 +13103,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2010858105
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2010858103}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.6425862, y: -1.030988}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.1549425, y: 1.0434074}
+  m_EdgeRadius: 0
 --- !u!1 &2013227652
 GameObject:
   m_ObjectHideFlags: 0
@@ -15767,7 +13137,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2013227653}
   - component: {fileID: 2013227655}
-  - component: {fileID: 2013227654}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -15788,34 +13157,6 @@ Transform:
   m_Father: {fileID: 2010858104}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2013227654
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2013227652}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &2013227655
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15870,7 +13211,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2028963315}
   - component: {fileID: 2028963317}
-  - component: {fileID: 2028963316}
   m_Layer: 8
   m_Name: castleMid (26)
   m_TagString: Untagged
@@ -15891,34 +13231,6 @@ Transform:
   m_Father: {fileID: 1352794927}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2028963316
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2028963314}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &2028963317
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15990,7 +13302,7 @@ Transform:
   m_GameObject: {fileID: 2044049151}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.01, y: 14.15, z: 1.0249226}
-  m_LocalScale: {x: 1.66237, y: 1.66237, z: 0.7916}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 9
@@ -16006,7 +13318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 10
 --- !u!58 &2044049154
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16100,7 +13412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -316.3, y: 342.32}
+  m_AnchoredPosition: {x: -459.9, y: 293.8}
   m_SizeDelta: {x: 71.38, y: 64.242}
   m_Pivot: {x: 0.62713236, y: 0.5000001}
 --- !u!114 &2057448712
@@ -16162,7 +13474,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2058505216}
   - component: {fileID: 2058505218}
-  - component: {fileID: 2058505217}
   m_Layer: 8
   m_Name: castleRight (1)
   m_TagString: Untagged
@@ -16183,36 +13494,6 @@ Transform:
   m_Father: {fileID: 1850910991}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2058505217
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2058505215}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.32, y: -0.35}
-      - {x: 0.35, y: -0.32}
-      - {x: 0.35, y: 0.32}
-      - {x: 0.32, y: 0.35}
 --- !u!212 &2058505218
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16267,7 +13548,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2062228137}
   - component: {fileID: 2062228139}
-  - component: {fileID: 2062228138}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -16288,34 +13568,6 @@ Transform:
   m_Father: {fileID: 1634234320}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2062228138
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2062228136}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &2062228139
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16370,7 +13622,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2064753628}
   - component: {fileID: 2064753630}
-  - component: {fileID: 2064753629}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -16391,34 +13642,6 @@ Transform:
   m_Father: {fileID: 493666351}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2064753629
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2064753627}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &2064753630
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16473,7 +13696,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2065711289}
   - component: {fileID: 2065711291}
-  - component: {fileID: 2065711290}
   m_Layer: 8
   m_Name: castleMid (27)
   m_TagString: Untagged
@@ -16494,34 +13716,6 @@ Transform:
   m_Father: {fileID: 1671549685}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2065711290
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2065711288}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &2065711291
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16576,7 +13770,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2081988910}
   - component: {fileID: 2081988912}
-  - component: {fileID: 2081988911}
   m_Layer: 8
   m_Name: castleMid (25)
   m_TagString: Untagged
@@ -16597,34 +13790,6 @@ Transform:
   m_Father: {fileID: 491869596}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2081988911
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2081988909}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.35, y: 0.35}
-      - {x: -0.35, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &2081988912
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16679,7 +13844,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2096144942}
   - component: {fileID: 2096144944}
-  - component: {fileID: 2096144943}
   m_Layer: 8
   m_Name: castleLeft (1)
   m_TagString: Untagged
@@ -16700,36 +13864,6 @@ Transform:
   m_Father: {fileID: 1328338010}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2096144943
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2096144941}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.32, y: 0.35}
-      - {x: -0.35, y: 0.32}
-      - {x: -0.35, y: -0.32}
-      - {x: -0.32, y: -0.35}
-      - {x: 0.35, y: -0.35}
-      - {x: 0.35, y: 0.35}
 --- !u!212 &2096144944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16801,7 +13935,7 @@ Transform:
   m_GameObject: {fileID: 2097721000}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.7, y: 12.18, z: 1.024923}
-  m_LocalScale: {x: 1.66237, y: 1.66237, z: 0.7916}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 118527247}
   m_RootOrder: 8
@@ -16817,7 +13951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449e0ff83b16149d1840a2fe0d6b90e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointsToAdd: 0
+  PointsToAdd: 10
 --- !u!58 &2097721003
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16886,7 +14020,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2120148416}
-  m_Layer: 0
+  - component: {fileID: 2120148417}
+  m_Layer: 8
   m_Name: First Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16929,6 +14064,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2120148417
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120148415}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.1408381, y: -9.490358}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 23.17622, y: 1.0424004}
+  m_EdgeRadius: 0
 --- !u!1 &2136789528
 GameObject:
   m_ObjectHideFlags: 0
