@@ -10742,7 +10742,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: e04cad0f7a82f4df68fcfa1bae2bf061, type: 3}
-  m_Color: {r: 0.17914736, g: 0, b: 0.7735849, a: 1}
+  m_Color: {r: 0, g: 0.6580744, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -11497,8 +11497,7 @@ Prefab:
     - target: {fileID: 1727485052244272, guid: e43eab3f439b043f496d0f69886a212a, type: 2}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 114188253240658748, guid: e43eab3f439b043f496d0f69886a212a,
         type: 2}
       propertyPath: animator
